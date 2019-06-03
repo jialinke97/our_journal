@@ -13,8 +13,9 @@
 <div class="index"> 
 <p class="index"> We wanted, it seemed, what we already had, <br> a lover and a friend to create with, side by side.
 <br> <br>To be loyal, yet be free. </p>
-</div>       
+</div>    
 
+<div data-tilt> <!-- Tilt element -->
 <div id="videosList">    
 <div class="video">
     <video height="600" width="330" class="thevideo" loop preload="none">
@@ -23,7 +24,7 @@
     </video>
 </div>
 </div>
-
+</div>
 
 </section>
 
@@ -39,6 +40,8 @@ function hideVideo(e) {
     $('video', this).get(0).pause(); 
 }
 </script>
+
+<script src="scripts/tilt.jquery.js"></script> <!-- Load Tilt.js library -->
 
 </body>
 </html>

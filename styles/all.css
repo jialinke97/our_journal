@@ -60,12 +60,24 @@ body {
     font-size: 20px;
   }
 
+  p.start{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    letter-spacing: 1px; 
+    font-size: 28px;
+  }
+
   section{
     margin: 20px 40px;
   }
 
   div.index{
       margin-top:200px;
+  }
+
+  div.start{
+    width: 400px;
+    margin: 0 auto;
   }
 
   section.index{
@@ -85,12 +97,11 @@ body {
     margin-bottom: 5px;
   }
   
-  /* Please use class do not style  all img! Thanks! */
-  /* img{
+img{
     display: block;
     width: 100%;
     padding-bottom: 3%;
-  } */
+  }
   
   em{
     font-style: normal;
@@ -180,5 +191,33 @@ body {
     border-radius: 4px;
   }
   
-
+a.button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    color: black;
+    border-radius: 50px;
+    padding: 1em 2em;
+    transition-property: color;
+    transition-duration: .3s;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+}
   
+.button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    background-color: blue;
+    transform-origin: 50%;
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}

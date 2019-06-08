@@ -237,7 +237,8 @@ a.button{
 
 #videosList {
     max-width: 330px; 
-     overflow: hidden;
+    overflow: hidden;
+    transform-style: preserve-3d
    }
    
    .video {

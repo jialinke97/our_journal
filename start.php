@@ -22,7 +22,7 @@
 
 <section>
 <div>
-<a href="index.php" class="button" ::before> Continue</a>
+<a href="index.html" class="button" ::before> Continue</a>
 </div>
 </section>
 

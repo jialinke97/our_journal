@@ -1,9 +1,9 @@
 <?php
   $current_file = basename($_SERVER['PHP_SELF']);
-  $indexarray = array('index.php', 'Home');
-  $schedulearray = array('schedule.php','Schedule');
+  $indexarray = array('index.html', 'Home');
+  $storiesarray = array('stories.php','Stories');
   $galleryarray = array('gallery.php', 'Gallery');
-  $navigation = array ($indexarray, $schedulearray, $galleryarray);
+  $navigation = array ($indexarray, $storiesarray, $galleryarray);
 ?>
 
  <header>
